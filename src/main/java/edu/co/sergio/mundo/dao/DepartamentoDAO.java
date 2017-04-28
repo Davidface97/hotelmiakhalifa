@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-import edu.co.sergio.mundo.vo.Departamento;
+//import edu.co.sergio.mundo.vo.Departamento;
 import java.net.URISyntaxException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -26,12 +26,13 @@ import java.util.logging.Logger;
  */
  
 
-public class DepartamentoDAO implements IBaseDatos<Departamento> {
+//public class DepartamentoDAO implements IBaseDatos<Departamento> {
 
 	/**
 	 * Funcion que permite obtener una lista de los departamentos existentes en la base de datos
 	 * @return List<Departamento> Retorna la lista de Departamentos existentes en la base de datos
 	 */
+/*
 	public List<Departamento> findAll() {
 		List<Departamento> departamentos= null;
 	    String query = "SELECT * FROM Depto";
@@ -71,12 +72,13 @@ public class DepartamentoDAO implements IBaseDatos<Departamento> {
 	    return departamentos;
 	}
 
-	
+	*/
 	/**
 	 * Funcion que permite realizar la insercion de un nuevo registro en la tabla Departamento
 	 * @param Departamento recibe un objeto de tipo Departamento 
 	 * @return boolean retorna true si la operacion de insercion es exitosa.
 	 */
+/*
 	public boolean insert(Departamento t) {
 		boolean result=false;
 		Connection connection=null;
@@ -97,12 +99,14 @@ public class DepartamentoDAO implements IBaseDatos<Departamento> {
 		}
 		return result;
 	}
-
+*/
 	/**
 	 * Funcion que permite realizar la actualizacion de un nuevo registro en la tabla Departamento
 	 * @param Departamento recibe un objeto de tipo Departamento 
 	 * @return boolean retorna true si la operacion de actualizacion es exitosa.
 	 */
+
+/*
 	public boolean update(Departamento t) {
 		boolean result=false;
 		Connection connection= null;
@@ -127,12 +131,14 @@ public class DepartamentoDAO implements IBaseDatos<Departamento> {
 			
 		return result;
 	}
-
+*/
 	/**
 	 * Funcion que permite realizar la eliminario de registro en la tabla Departamento
 	 * @param Departamento recibe un objeto de tipo Departamento 
 	 * @return boolean retorna true si la operacion de borrado es exitosa.
 	 */
+
+/*
 	public boolean delete(Departamento t) {
 	   boolean result=false;
 	   Connection connection = null;
@@ -153,4 +159,6 @@ public class DepartamentoDAO implements IBaseDatos<Departamento> {
 	   
 	   return result;
 	}
+
 }
+*/

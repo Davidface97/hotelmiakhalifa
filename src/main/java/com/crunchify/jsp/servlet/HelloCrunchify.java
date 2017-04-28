@@ -1,7 +1,7 @@
 package com.crunchify.jsp.servlet;
  
-import edu.co.sergio.mundo.dao.DepartamentoDAO;
-import edu.co.sergio.mundo.vo.Departamento;
+//import edu.co.sergio.mundo.dao.DepartamentoDAO;
+//import edu.co.sergio.mundo.vo.Departamento;
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -13,7 +13,7 @@ import javax.servlet.RequestDispatcher;
 /**
  * @author Crunchify.com
  */
- 
+ /*
 public class HelloCrunchify extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // reading the user input
@@ -40,3 +40,4 @@ public class HelloCrunchify extends HttpServlet {
         
         }
 }
+*/
